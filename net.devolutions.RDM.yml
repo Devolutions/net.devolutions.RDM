@@ -39,15 +39,15 @@ modules:
       - usr
     sources:
       - type: file
-        url: https://cdn.devolutions.net/download/Linux/RDM/2024.1.1.2/RemoteDesktopManager_2024.1.1.2_amd64.deb
+        url: https://cdn.devolutions.net/download/Linux/RDM/2024.1.2.3/RemoteDesktopManager_2024.1.2.3_amd64.deb
         dest-filename: RemoteDesktopManager.deb
-        sha256: 2da025faf8f5642c05ebc282ccf691c4a955e289b853da699159be7996cf96d2
+        sha256: 274471481159fc7388e3662346d280c875e92ad69d3ab3aa2166e78e2b5d8777
         only-arches:
           - x86_64
       - type: file
-        url: https://cdn.devolutions.net/download/Linux/RDM/2024.1.1.2/RemoteDesktopManager_2024.1.1.2_arm64.deb
+        url: https://cdn.devolutions.net/download/Linux/RDM/2024.1.2.3/RemoteDesktopManager_2024.1.2.3_arm64.deb
         dest-filename: RemoteDesktopManager.deb
-        sha256: e5c3410b89ed85e3e03d8d1c35a76cc2509affaa044daffcc5adf53b01fed10f
+        sha256: 838ec9af0f12dc1a1ff13f1512f71d9b6caf8bfee2f531f4216369ce5a86df3a
         only-arches:
           - aarch64
       - type: file
@@ -92,11 +92,19 @@ modules:
 #      - --disable-static
 #      - --disable-gtk-doc
 #      - --disable-coverage
+
 #      - --disable-introspection
+
 #    rm-configure: true
+
 #    sources:
+
 #      - type: archive
+
 #        url: https://download.gnome.org/sources/libgnome-keyring/3.12/libgnome-keyring-3.12.0.tar.xz
+
 #        sha256: c4c178fbb05f72acc484d22ddb0568f7532c409b0a13e06513ff54b91e947783
+
 #      - type: shell
+
 #        conmmands: [autoreconf -vfi]
